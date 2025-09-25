@@ -1,0 +1,10 @@
+# Ambiente Virtual
+.venv/
+venv/
+__pycache__/
+
+# Arquivos de credenciais (se você usar)
+.env
+
+# Arquivos de sistema
+.DS_Store
