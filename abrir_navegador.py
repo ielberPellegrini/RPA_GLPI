@@ -1,5 +1,10 @@
 import time
 import os
+import requests
+try:
+    from urllib.request import Request, urlopen
+except ImportError:  # compatibilidade com código antigo
+    from urllib2 import Request, urlopen
 from dotenv import load_dotenv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
