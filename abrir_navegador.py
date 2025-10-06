@@ -161,3 +161,4 @@ try:
 finally:
     driver.quit()
     print("Navegador fechado com segurança. Fim do script.")
+    
